@@ -1,0 +1,10 @@
+---
+    indicator_name: Proportion of informal employment in total employment, by sector and sex
+    indicator_number: 8.3.1
+    computation_units: Percentage
+    source_active_1: true
+    source_organisation_1: Wetland Statistics Agency
+    source_url_1: "https://wetlandstaticsagency.org"
+    reporting_status: complete
+    ---
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit...
