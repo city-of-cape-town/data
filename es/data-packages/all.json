@@ -38,6 +38,41 @@
       "title": "Proporción de la población que vive por debajo del umbral internacional de pobreza, desglosada por sexo, edad, situación laboral y ubicación geográfica (urbana o rural)"
     },
     {
+      "path": "1-2-1/data.csv",
+      "name": "1-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Percent",
+                ""
+              ]
+            },
+            "title": "Units"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Proporción de la población que vive por debajo del umbral nacional de pobreza, desglosada por sexo y edad"
+    },
+    {
       "path": "4-3-1/data.csv",
       "name": "4-3-1",
       "profile": "tabular-data-resource",
@@ -1212,30 +1247,6 @@
         ]
       },
       "title": "Volumen de la asistencia oficial para el desarrollo destinada al agua y el saneamiento que forma parte de un plan de gastos coordinados por el gobierno"
-    },
-    {
-      "path": "1-2-1/data.csv",
-      "name": "1-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Proporción de la población que vive por debajo del umbral nacional de pobreza, desglosada por sexo y edad"
     },
     {
       "path": "3-3-2/data.csv",
