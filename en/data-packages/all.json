@@ -52,6 +52,54 @@
       "title": "Proportion of men, women and children of all ages living in poverty in all its dimensions according to national definitions"
     },
     {
+      "path": "11-1-1/data.csv",
+      "name": "11-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Dwelling Type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Formal Dwelling",
+                "Informal Dwelling",
+                "Other"
+              ]
+            },
+            "title": "Dwelling Type"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Percent (%)"
+              ]
+            },
+            "title": "Units"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          }
+        ]
+      },
+      "title": "Proportion of urban population living in slums, informal settlements or inadequate housing"
+    },
+    {
       "path": "1-1-1/data.csv",
       "name": "1-1-1",
       "profile": "tabular-data-resource",
@@ -2520,30 +2568,6 @@
         ]
       },
       "title": "Maternal mortality ratio"
-    },
-    {
-      "path": "11-1-1/data.csv",
-      "name": "11-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          }
-        ]
-      },
-      "title": "Proportion of urban population living in slums, informal settlements or inadequate housing"
     },
     {
       "path": "17-7-1/data.csv",
