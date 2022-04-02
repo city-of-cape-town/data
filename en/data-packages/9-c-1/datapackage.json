@@ -11,13 +11,54 @@
       "schema": {
         "fields": [
           {
+            "name": "Race",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Black African",
+                "Coloured",
+                "Indian/Asian",
+                "White"
+              ]
+            },
+            "title": "Race"
+          },
+          {
+            "name": "Service Type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Use Internet at Other location",
+                "Use Internet at work/educational institution",
+                "Use Internet on a mobile device",
+                "Use the internet",
+                "Use the internet at home"
+              ]
+            },
+            "title": "Service Type"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Percent With Service",
+                "Percent by Racial Group"
+              ]
+            },
+            "title": "Units"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           }
         ]
