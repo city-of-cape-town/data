@@ -100,6 +100,79 @@
       "title": "Proportion of urban population living in slums, informal settlements or inadequate housing"
     },
     {
+      "path": "11-2-1/data.csv",
+      "name": "11-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Method of Travel",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Bicycle/motocycle",
+                "Bus",
+                "Lift club by a group of people sharing a private vehicle",
+                "Lift club by a group of people sharing private a vehicle",
+                "Minibus taxi/sedan taxi/bakkie taxi",
+                "Office is at home",
+                "Other (specify in the box)",
+                "Own car/other private vehicle/company vehicle",
+                "Train",
+                "Unspecified",
+                "Walking"
+              ]
+            },
+            "title": "Method of Travel"
+          },
+          {
+            "name": "Travel Time to Work",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "15 to 30 minutes",
+                "31 to 60 minutes",
+                "61 to 90 minutes",
+                "Less than 15 minutes",
+                "More than 90 minutes",
+                "Unknown"
+              ]
+            },
+            "title": "Travel Time to Work"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Percent (%)",
+                "Time in Minutes"
+              ]
+            },
+            "title": "Units"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          }
+        ]
+      },
+      "title": "Proportion of population that has convenient access to public transport, by sex, age and persons with disabilities"
+    },
+    {
       "path": "1-1-1/data.csv",
       "name": "1-1-1",
       "profile": "tabular-data-resource",
@@ -3024,30 +3097,6 @@
         ]
       },
       "title": "Material footprint, material footprint per capita, and material footprint per GDP"
-    },
-    {
-      "path": "11-2-1/data.csv",
-      "name": "11-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          }
-        ]
-      },
-      "title": "Proportion of population that has convenient access to public transport, by sex, age and persons with disabilities"
     },
     {
       "path": "12-3-1/data.csv",

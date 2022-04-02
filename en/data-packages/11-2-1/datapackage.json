@@ -11,13 +11,62 @@
       "schema": {
         "fields": [
           {
+            "name": "Method of Travel",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Bicycle/motocycle",
+                "Bus",
+                "Lift club by a group of people sharing a private vehicle",
+                "Lift club by a group of people sharing private a vehicle",
+                "Minibus taxi/sedan taxi/bakkie taxi",
+                "Office is at home",
+                "Other (specify in the box)",
+                "Own car/other private vehicle/company vehicle",
+                "Train",
+                "Unspecified",
+                "Walking"
+              ]
+            },
+            "title": "Method of Travel"
+          },
+          {
+            "name": "Travel Time to Work",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "15 to 30 minutes",
+                "31 to 60 minutes",
+                "61 to 90 minutes",
+                "Less than 15 minutes",
+                "More than 90 minutes",
+                "Unknown"
+              ]
+            },
+            "title": "Travel Time to Work"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Percent (%)",
+                "Time in Minutes"
+              ]
+            },
+            "title": "Units"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           }
         ]

@@ -100,6 +100,79 @@
       "title": "Proporción de la población urbana que vive en barrios marginales, asentamientos informales o viviendas inadecuadas"
     },
     {
+      "path": "11-2-1/data.csv",
+      "name": "11-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Method of Travel",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Office is at home",
+                "Walking",
+                "Bicycle/motocycle",
+                "Minibus taxi/sedan taxi/bakkie taxi",
+                "Bus",
+                "Train",
+                "Lift club by a group of people sharing private a vehicle",
+                "Own car/other private vehicle/company vehicle",
+                "Other (specify in the box)",
+                "Unspecified",
+                "Lift club by a group of people sharing a private vehicle",
+                ""
+              ]
+            },
+            "title": "Method of Travel"
+          },
+          {
+            "name": "Travel Time to Work",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Less than 15 minutes",
+                "15 to 30 minutes",
+                "31 to 60 minutes",
+                "61 to 90 minutes",
+                "More than 90 minutes",
+                "Unknown",
+                ""
+              ]
+            },
+            "title": "Travel Time to Work"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Percent (%)",
+                "Time in Minutes",
+                ""
+              ]
+            },
+            "title": "Units"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Proporción de la población que tiene fácil acceso al transporte público, desglosada por sexo, edad y personas con discapacidad"
+    },
+    {
       "path": "1-1-1/data.csv",
       "name": "1-1-1",
       "profile": "tabular-data-resource",
@@ -3024,30 +3097,6 @@
         ]
       },
       "title": "Huella material en términos absolutos, huella material per cápita y huella material por PIB"
-    },
-    {
-      "path": "11-2-1/data.csv",
-      "name": "11-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Proporción de la población que tiene fácil acceso al transporte público, desglosada por sexo, edad y personas con discapacidad"
     },
     {
       "path": "12-3-1/data.csv",
