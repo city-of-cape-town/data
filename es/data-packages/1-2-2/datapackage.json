@@ -12,8 +12,33 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "Race",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Black African",
+                "Coloured",
+                "Indian/Asian",
+                "White",
+                ""
+              ]
+            },
+            "title": "Race"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Percent (%) by racial group",
+                ""
+              ]
+            },
+            "title": "Units"
           },
           {
             "name": "Value",

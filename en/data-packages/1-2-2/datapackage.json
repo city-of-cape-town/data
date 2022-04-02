@@ -11,13 +11,38 @@
       "schema": {
         "fields": [
           {
+            "name": "Race",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Black African",
+                "Coloured",
+                "Indian/Asian",
+                "White"
+              ]
+            },
+            "title": "Race"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Percent (%) by racial group"
+              ]
+            },
+            "title": "Units"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           }
         ]
