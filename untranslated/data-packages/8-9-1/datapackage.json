@@ -12,7 +12,35 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "Tourism Site",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Table Mountain Aerial Cableway",
+                "Table Mountain Park: Cape of Good hope",
+                "Kisternbosch National Botanical Gardens",
+                "Boulders Beach",
+                "Roben Island",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total Gross Valu Add in Rands",
+                "Percent of Total GVA",
+                "Total of Tourism Employment",
+                "Percent of Total Tourism employment",
+                "Total Tourism GVA by Site",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
