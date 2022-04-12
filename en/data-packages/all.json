@@ -240,7 +240,7 @@
             "constraints": {
               "enum": [
                 "",
-                "Percent"
+                "Percentage (%)"
               ]
             },
             "title": "Units"
