@@ -31,9 +31,9 @@
             "constraints": {
               "enum": [
                 "",
-                "Percent of Total GVA",
-                "Percent of Total Tourism employment",
-                "Total Gross Valu Add in Rands",
+                "Percentage (%) of Total GVA",
+                "Percentage (%) of Total Tourism employment",
+                "Total GVA in Rands",
                 "Total Tourism GVA by Site",
                 "Total of Tourism Employment"
               ]
