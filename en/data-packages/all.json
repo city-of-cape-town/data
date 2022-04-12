@@ -205,7 +205,7 @@
             "constraints": {
               "enum": [
                 "",
-                "Percent (%) by racial group"
+                "Percentage (%) by racial group"
               ]
             },
             "title": "Units"
