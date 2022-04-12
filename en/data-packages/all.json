@@ -405,9 +405,9 @@
             "constraints": {
               "enum": [
                 "",
-                "Percent by Gender",
-                "Percent by Sector",
-                "Percent of Total Informal Employment"
+                "Percentage by Gender",
+                "Percentage by Sector",
+                "Percentage of Total Informal Employment"
               ]
             },
             "title": "Units"
