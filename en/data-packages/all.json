@@ -120,7 +120,7 @@
             "constraints": {
               "enum": [
                 "",
-                "Percent (%)",
+                "Percentage (%)",
                 "Time in Minutes"
               ]
             },
