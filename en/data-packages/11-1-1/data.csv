@@ -1,16 +1,16 @@
 Year,Dwelling Type,Units,Value
-2014,Formal Dwelling,Percent (%),79.8
-2015,Formal Dwelling,Percent (%),79.7
-2016,Formal Dwelling,Percent (%),78.0
-2017,Formal Dwelling,Percent (%),78.7
-2018,Formal Dwelling,Percent (%),79.1
-2014,Informal Dwelling,Percent (%),17.0
-2015,Informal Dwelling,Percent (%),18.5
-2016,Informal Dwelling,Percent (%),19.9
-2017,Informal Dwelling,Percent (%),19.2
-2018,Informal Dwelling,Percent (%),19.3
-2014,Other,Percent (%),3.2
-2015,Other,Percent (%),1.8
-2016,Other,Percent (%),2.2
-2017,Other,Percent (%),2.2
-2018,Other,Percent (%),1.6
+2014,Formal Dwelling,Percentage (%),79.8
+2015,Formal Dwelling,Percentage (%),79.7
+2016,Formal Dwelling,Percentage (%),78.0
+2017,Formal Dwelling,Percentage (%),78.7
+2018,Formal Dwelling,Percentage (%),79.1
+2014,Informal Dwelling,Percentage (%),17.0
+2015,Informal Dwelling,Percentage (%),18.5
+2016,Informal Dwelling,Percentage (%),19.9
+2017,Informal Dwelling,Percentage (%),19.2
+2018,Informal Dwelling,Percentage (%),19.3
+2014,Other,Percentage (%),3.2
+2015,Other,Percentage (%),1.8
+2016,Other,Percentage (%),2.2
+2017,Other,Percentage (%),2.2
+2018,Other,Percentage (%),1.6
