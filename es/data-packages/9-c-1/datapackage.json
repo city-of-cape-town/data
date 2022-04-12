@@ -49,8 +49,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Percent With Service",
-                "Percent by Racial Group",
+                "Percentage (%) with Service",
+                "Percentage (%) by Racial Group",
                 ""
               ]
             },

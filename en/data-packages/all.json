@@ -47,8 +47,8 @@
             "constraints": {
               "enum": [
                 "",
-                "Percent With Service",
-                "Percent by Racial Group"
+                "Percentage (%) by Racial Group",
+                "Percentage (%) with Service"
               ]
             },
             "title": "Units"
