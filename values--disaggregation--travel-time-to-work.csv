@@ -1,0 +1,7 @@
+Value,Disaggregation combinations using this value,Number of indicators
+15 to 30 minutes,1,1
+31 to 60 minutes,1,1
+61 to 90 minutes,1,1
+Less than 15 minutes,1,1
+More than 90 minutes,1,1
+Unknown,1,1
