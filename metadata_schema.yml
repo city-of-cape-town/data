@@ -262,7 +262,7 @@ prose:
             label: References and Documentation (global)
             translation_key: metadata_fields.OTHER_DOC
             scope: global
-      ######### National Metadata #########
+      ######### Local Metadata #########
       - name: SDG_INDICATOR_INFO
         field:
             element: text
